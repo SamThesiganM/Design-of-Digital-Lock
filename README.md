@@ -20,6 +20,18 @@ requires incorporating sequential logic to manage the state of the verification 
 - Digital Comparators  
 - D Flip-Flops  
 
+## Working
+
+1. The user enters digits through a keypad.
+2. The **Encoder** converts each key press into binary form.
+3. The **MOD-4 Counter** keeps track of the position (1st, 2nd, 3rd digit).
+4. Based on the counter output, the **2:4 Decoder** selects the corresponding stored password digit.
+5. The entered digit is compared with the stored digit using **Digital Comparators**.
+6. The result of each comparison is stored using **D Flip-Flops**.
+7. After all three digits are entered:
+   - If all comparisons are correct → Access is **granted** 
+   - If any digit is incorrect → Access is **denied**  
+
 ## Conclusion
 
 This combination ensures that the system not only checks for data equality but also confirms that the key
