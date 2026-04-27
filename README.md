@@ -1,6 +1,6 @@
-# Digital Access Control System
+# Digital Lock
 
-Digital access control is a foundational element of modern security, ranging from complex
+Digital Lock is a foundational element of modern security, ranging from complex
 cryptographic systems used in financial transactions to simple electronic locks for
 restricted areas. The fundamental requirement in all these systems is the robust and
 accurate verification of an input sequence against a known, stored pattern.
